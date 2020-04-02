@@ -9,19 +9,28 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    border: 12px outset darkorange;
+    background-color: darkorange;
+    display: inline-block;
+    padding: 5px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 2fr .5fr;
 }
 
 .content-box {
-    background-color: lightsalmon;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
+    border: 5px solid black;
     padding: 10px 20px 10px 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background: radial-gradient(circle, rgba(252,146,103,1) 0%, rgba(255,163,126,1) 51%);
+}
+
+.content-box img {
+    display: block;
 }
 
 aside {
@@ -39,7 +48,6 @@ aside {
 
 .album-list {
     font-style: italic;
-    width: 100%;
 }
 
 .album-list img {
