@@ -1,0 +1,41 @@
+/* Main structure */
+.main-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 1%;
+}
+
+/* Article Body */
+.article-body__main-img {
+    display: block;
+}
+
+/* Audio List */
+.audio-list__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.audio-list__grid__item {
+    font-style: italic;
+}
+
+/* Album List */
+
+.album-list {
+    text-align: center;
+}
+
+.album-list__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.album-list__grid__item {
+    text-align: center;
+    font-style: italic;
+}
+
+.album-list__grid__item__img {
+    max-width: 100%;
+}

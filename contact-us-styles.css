@@ -1,0 +1,13 @@
+.contact-us-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-flex-container__item {
+    margin-top: .25em;
+    margin-bottom: .25em
+}
+
+.input-required {
+    color: red;
+}
