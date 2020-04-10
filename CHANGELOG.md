@@ -11,3 +11,4 @@
 - [HTML] Removed the "jazz" title logo from all html pages
 - [HTML] Changed displayed author from `Tim Oh` to `toh995`
 - [HTML] Updated all hyperlinks so that they have the attribute `target="_blank"`
+- [HTML] Reformatted HTML files
