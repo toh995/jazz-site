@@ -8,6 +8,8 @@
 /* Article Body */
 .article-body__main-img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Audio List */
@@ -38,4 +40,5 @@
 
 .album-list__grid__item__img {
     max-width: 100%;
+    height: auto;
 }
