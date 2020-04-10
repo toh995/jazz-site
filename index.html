@@ -4,7 +4,7 @@
 <head>
     <title>All About Jazz | Home</title>
     <meta charset="utf-8">
-    <meta name="author" content="Tim Oh">
+    <meta name="author" content="toh995">
     <meta name="description" content="Home page for the jazz website">
 
     <!-- Icon for jazz -->
@@ -12,54 +12,52 @@
 
     <!-- Custom CSS -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-styles.css">
 </head>
 
-<body>
-    <header>
-        <h1>
-            ALL ABOUT JAZZ<br>
-            <img src="assets/jazz-header-logo.png" alt="Colorful jazz logo">
-        </h1>
+<body class="green-background">
+    <header class="header-section">
+        <h1 class="site-title"><a class="site-title__link" href="index.html">ALL ABOUT JAZZ</a></h1>
+        <nav class="nav-bar">
+            <div class="nav-bar__item"><a class="nav-bar__item__link nav-bar__item__link--current-page" href="index.html">Home</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1940s-charlie-parker.html">1940s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1950s-art-blakey.html">1950s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1960s-miles-davis.html">1960s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1970s-herbie-hancock.html">1970s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="contact-us.html">Contact Us</a></div>
+        </nav>
     </header>
-    <nav>
-        <strong>Navigation:</strong>
-        <ul>
-            <li>Home</li>
-            <li><a href="1940s-charlie-parker.html">1940s - Charlie Parker</a></li>
-            <li><a href="1950s-art-blakey.html">1950s - Art Blakey</a></li>
-            <li><a href="1960s-miles-davis.html">1960s - Miles Davis</a></li>
-            <li><a href="1970s-herbie-hancock.html">1970s - Herbie Hancock</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-    </nav>
     <main>
         <article class="content-box">
-            <h2>HOME</h2>
-            <p>
-                Welcome to the <strong><em>ALL ABOUT JAZZ</em></strong> website!
-                Here we will give a brief history of jazz from the <strong>1940s</strong> to the <strong>1970s</strong>.
-                For each decade, we will focus on one important jazz musician.
-            </p>
-            <p>
-                We will also provide some images, audio, and a few of that musician's most important albums within the
-                decade.
-            </p>
-            <p>
-                Feel free to use the navigation menu above to surf through the site!
-            </p>
-            <p>
-                Here's some audio to get you in the mood for jazz:
-            </p>
-            <audio controls>
-                <source src="assets/home-audio-stablemates.mp3">
-            </audio>
-            <br>
-            <em>(&quot;Stablemates&quot; by the George Shearing Quintet, 1961)</em>
+            <section class="article-body">
+                <h2 class="content-box__heading-text">HOME</h2>
+                <p>
+                    Welcome to the <strong><em>ALL ABOUT JAZZ</em></strong> website!
+                    Here we will give a brief history of jazz from the <strong>1940s</strong> to the
+                    <strong>1970s</strong>.
+                    For each decade, we will focus on one important jazz musician.
+                </p>
+                <p>
+                    We will also provide some images, audio, and a few of that musician's most important albums within
+                    the
+                    decade.
+                </p>
+                <p>
+                    Feel free to use the navigation menu above to surf through the site!
+                </p>
+                <p>
+                    Here's some audio to get you in the mood for jazz:
+                </p>
+                <audio controls>
+                    <source src="assets/home-audio-stablemates.mp3">
+                </audio>
+                <br>
+                <em>(&quot;Stablemates&quot; by the George Shearing Quintet, 1961)</em>
+            </section>
         </article>
     </main>
-    <footer>
-        Created by Tim Oh in March 2020.
+    <footer class="site-footer">
+        Created by toh995 in March-April 2020.
     </footer>
 </body>
 

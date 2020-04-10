@@ -4,7 +4,7 @@
 <head>
     <title>All About Jazz | 1970s - Herbie Hancock</title>
     <meta charset="utf-8">
-    <meta name="author" content="Tim Oh">
+    <meta name="author" content="toh995">
     <meta name="description" content="Page for the 1970s - Herbie Hancock">
 
     <!-- Icon for jazz -->
@@ -12,32 +12,27 @@
 
     <!-- Custom CSS -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-styles.css">
+    <link rel="stylesheet" href="article-styles.css">
 </head>
 
-<body>
-    <header>
-        <h1>
-            ALL ABOUT JAZZ<br>
-            <img src="assets/jazz-header-logo.png" alt="Colorful jazz logo">
-        </h1>
+<body class="green-background">
+    <header class="header-section">
+        <h1 class="site-title"><a class="site-title__link" href="index.html">ALL ABOUT JAZZ</a></h1>
+        <nav class="nav-bar">
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="index.html">Home</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1940s-charlie-parker.html">1940s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1950s-art-blakey.html">1950s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="1960s-miles-davis.html">1960s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link nav-bar__item__link--current-page" href="1970s-herbie-hancock.html">1970s</a></div>
+            <div class="nav-bar__item"><a class="nav-bar__item__link" href="contact-us.html">Contact Us</a></div>
+        </nav>
     </header>
-    <nav>
-        <strong>Navigation:</strong>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="1940s-charlie-parker.html">1940s - Charlie Parker</a></li>
-            <li><a href="1950s-art-blakey.html">1950s - Art Blakey</a></li>
-            <li><a href="1960s-miles-davis.html">1960s - Miles Davis</a></li>
-            <li>1970s - Herbie Hancock</li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <main class="container">
+    <main class="main-grid">
         <article class="content-box">
-            <section>
-                <h2>1970s - Herbie Hancock</h2>
-                <img src="assets/1970s/herbie-hancock.jpeg" alt="A photo of Herbie Hancock playing the keyboard.">
+            <section class="article-body">
+                <h2 class="content-box__heading-text">1970s - Herbie Hancock</h2>
+                <img class="article-body__main-img" src="assets/1970s/herbie-hancock.jpeg" alt="A photo of Herbie Hancock playing the keyboard.">
                 <p>
                     Our musician for the 1970s is <em><strong>Herbie Hancock</strong></em>!
                 </p>
@@ -58,62 +53,62 @@
                 </p>
             </section>
             <hr>
-            <section>
-                <h2>Audio</h2>
-                <ul class="list-no-bullets audio-list">
-                    <li>
+            <section class="audio-list">
+                <h2 class="content-box__heading-text">Audio</h2>
+                <div class="audio-list__grid">
+                    <div class="audio-list__grid__item">
                         <p>
                             &quot;Chameleon&quot; by Herbie Hancock, 1973
                         </p>
                         <audio controls>
                             <source src="assets/1970s/chameleon.mp3">
                         </audio>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="audio-list__grid__item">
                         <p>
                             &quot;Actual Proof&quot; by Herbie Hancock, 1974
                         </p>
                         <audio controls>
                             <source src="assets/1970s/actual-proof.mp3">
                         </audio>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="audio-list__grid__item">
                         <p>
                             &quot;Butterfly&quot; by Herbie Hancock, 1974
                         </p>
                         <audio controls>
                             <source src="assets/1970s/butterfly.mp3">
                         </audio>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </section>
         </article>
-        <aside class="content-box">
-            <h2>Albums</h2>
-            <ul class="list-no-bullets album-list">
-                <li>
+        <aside class="content-box album-list">
+            <h2 class="content-box__heading-text">Albums</h2>
+            <div class="album-list__grid">
+                <div class="album-list__grid__item">
                     <p>
                         Head Hunters (1973)
                     </p>
-                    <img src="assets/1970s/head-hunters-album.jpg" alt="The album cover for Head Hunters">
-                </li>
-                <li>
+                    <img class="album-list__grid__item__img" src="assets/1970s/head-hunters-album.jpg" alt="The album cover for Head Hunters">
+                </div>
+                <div class="album-list__grid__item">
                     <p>
                         Thrust (1974)
                     </p>
-                    <img src="assets/1970s/thrust-album.jpg" alt="The album cover for Thrust">
-                </li>
-                <li>
+                    <img class="album-list__grid__item__img" src="assets/1970s/thrust-album.jpg" alt="The album cover for Thrust">
+                </div>
+                <div class="album-list__grid__item">
                     <p>
                         Secrets (1976)
                     </p>
-                    <img src="assets/1970s/secrets-album.jpg" alt="The album cover for Secrets">
-                </li>
-            </ul>
+                    <img class="album-list__grid__item__img" src="assets/1970s/secrets-album.jpg" alt="The album cover for Secrets">
+                </div>
+            </div>
         </aside>
     </main>
-    <footer>
-        Created by Tim Oh in March 2020.
+    <footer class="site-footer">
+        Created by toh995 in March-April 2020.
     </footer>
 </body>
 
