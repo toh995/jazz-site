@@ -1,5 +1,8 @@
 # CHANGELOG
 
+#### 2020-04-17
+- [HTML, CSS] removed the asterisk (`*`) for required form controls from HTML, and moved to be implemented in CSS
+
 #### 2020-04-09
 - [CSS] Implemented BEM methodology
 - [CSS] Broke up the CSS into three different files
